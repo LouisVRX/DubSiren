@@ -1,0 +1,28 @@
+#N canvas 459 216 450 300 10;
+#X obj 195 61 key;
+#X obj 195 105 t b b;
+#X msg 195 130 1, f 2;
+#X obj 195 184 change;
+#X obj 259 59 keyup;
+#X msg 259 167 0;
+#X msg 220 128 stop;
+#X obj 259 145 del 50;
+#X obj 294 119 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 259 81 select \$1;
+#X obj 195 83 select \$1;
+#X floatatom 195 207 5 0 0 0 - - -, f 5;
+#X obj 195 227 outlet;
+#X connect 0 0 10 0;
+#X connect 1 0 2 0;
+#X connect 1 1 6 0;
+#X connect 2 0 3 0;
+#X connect 3 0 11 0;
+#X connect 4 0 9 0;
+#X connect 5 0 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 5 0;
+#X connect 9 0 7 0;
+#X connect 9 0 8 0;
+#X connect 10 0 1 0;
+#X connect 11 0 12 0;
