@@ -1,2 +1,2 @@
 # DubSiren
-Dubsiren test in puredata
+Dubsire in puredata [IN PROGRESS]
